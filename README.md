@@ -57,27 +57,16 @@ This server runs the backend logic and serves the application routes.
 
 ---
 
-### Step 2: Start the Python HTTP Server
-This server hosts the static frontend assets and the TensorFlow.js model files inside the `public` directory.
+### Step 2: Start the HTTP Static File Server
+This server hosts the static frontend assets and the TensorFlow.js model files inside the `public` directory. Any tool that can serve static files will work.
 
-1. **Activate the virtual environment**:
-   - On Windows (PowerShell):
-     ```powershell
-     .venv\Scripts\Activate.ps1
-     ```
-   - On Windows (CMD):
-     ```cmd
-     .venv\Scripts\activate.bat
-     ```
-   - On macOS/Linux/Git Bash:
-     ```bash
-     source .venv/bin/activate
-     ```
-2. **Navigate to the public directory**:
+For example, using Python's built-in HTTP server:
+
+1. **Navigate to the public directory**:
    ```bash
    cd public
    ```
-3. **Start the Python HTTP server**:
+2. **Start the server**:
    ```bash
    python -m http.server 8000
    ```
