@@ -1,0 +1,6 @@
+0 unripe banana
+1 ripe banana
+2 unripe mango
+3 ripe mango
+4 ripe apple
+5 unripe apple

@@ -1,0 +1,1 @@
+{"tfjsVersion":"1.7.4","tmVersion":"2.4.12","packageVersion":"0.8.4-alpha2","packageName":"@teachablemachine/image","timeStamp":"2026-04-20T15:04:49.565Z","userMetadata":{},"modelName":"Fruit Ripeness","labels":["Unripe Banana","Ripe Banana","Unripe Mango","Ripe Mango","Ripe Apple","Unripe Apple"],"imageSize":224}
